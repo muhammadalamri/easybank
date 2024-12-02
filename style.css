@@ -70,8 +70,10 @@ body {
 /* ============================== header ======================= */
 
 /* Navbar */
-.header {
-  overflow-x: hidden;
+@media (max-width: 768px) {
+  .header {
+    overflow-x: hidden;
+  }
 }
 .logo {
   width: 8rem;
